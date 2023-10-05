@@ -1,5 +1,4 @@
 # Beautiful Jekyll
-# Commit Check
 
 [![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
 
