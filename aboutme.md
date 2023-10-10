@@ -66,7 +66,7 @@ layout: page
         <div class="program-details">
             <p class="program-title"><strong>BSc International Economics</strong></p>
             <ul>
-                <li>Third best bachelor's degree</li>
+                <li>3<sup>rd</sup> best bachelor's degree</li>
             </ul>
         </div>
         <span class="location"><em>Tübingen, Germany</em></span>
@@ -91,7 +91,7 @@ layout: page
         <div class="program-details">
             <p class="program-title"><strong>Abitur</strong></p>
             <ul>
-                <li>Fourth best graduate out of ~120 students</li>
+                <li>4<sup>th</sup> best graduate out of ~120 students</li>
             </ul>
         </div>
         <span class="location"><em>Reutlingen, Germany</em></span>
