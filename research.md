@@ -6,17 +6,17 @@ layout: page
 
 <div class="research-entry">
     <h3 style="text-decoration: underline;">Economic History + Machine Learning</h3>
-    <p>I am applying large language models to investigate historical text documents. This allows me to detect new patterns that were previously not found with traditional methods in economic history.</p>
+    <p>I am applying large language models to investigate historical text documents. This allows me to detect new patterns that were previously not found with traditional methods in economic history. I plan to publish my master's dissertation in a shorter format with Professor Sheilagh Ogilvie.</p>
     <div style="text-align: center; margin-top: 10px;">
-        <a href="{{ '/assets/pdf/griesshaber_dissertation.pdf' | absolute_url }}" target="_blank">GPT-4 and Latin American Craft Guilds</a>
+        <a href="{{ '/assets/pdf/oxford_dissertation_griesshaber.pdf' | absolute_url }}" target="_blank">GPT-4 and Latin American Craft Guilds</a>
     </div>
 </div>
 
 <div class="research-entry">
     <h3 style="text-decoration: underline;">Machine Learning</h3>
-    <p>I plan to delve deeper into training feature point descriptors with deep learning, which I investigated in my bachelor's thesis in the BSc Cognitive Science.</p>
+    <p>I plan to delve deeper into training feature point descriptors with deep learning, which I investigated in my bachelor's thesis in the BSc Cognitive Science. I plan to publish my bachelor's thesis in a shorter format with Holger Heidrich, a PhD candidate at the University of Tübingen. </p>
     <div style="text-align: center; margin-top: 10px;">
-        <a href="{{ '/assets/pdf/griesshaber_cognitive_science.pdf' | absolute_url }}" target="_blank">Learning Feature Point Descriptors with Residual Neural Networks</a>
+        <a href="{{ '/assets/pdf/cognitive_science_dissertation_griesshaber.pdf' | absolute_url }}" target="_blank">Learning Feature Point Descriptors with the Triplet Loss</a>
     </div>
 </div>
 
