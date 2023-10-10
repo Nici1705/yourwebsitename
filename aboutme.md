@@ -193,7 +193,7 @@ layout: page
 <div class="award-entry">
     <div class="award-date">2017</div>
     <div class="award-content">
-        <div class="award-title">Online Scholarship for top students</div>
+        <div class="award-title">Online Scholarship</div>
         <div class="award-organization">e-fellows.net</div>
     </div>
 </div>
@@ -201,7 +201,7 @@ layout: page
 <div class="award-entry">
     <div class="award-date">2014</div>
     <div class="award-content">
-        <div class="award-title">Award for Outstanding Performance in the Arts</div>
+        <div class="award-title">Outstanding Performance in the Arts</div>
         <div class="award-organization">Karl-Danzer-Foundation</div>
     </div>
 </div>
@@ -209,7 +209,7 @@ layout: page
 <div class="award-entry">
     <div class="award-date">2013</div>
     <div class="award-content">
-        <div class="award-title">Award for Outstanding Performance in a Foreign Language</div>
+        <div class="award-title">Outstanding Performance in a Foreign Language</div>
         <div class="award-organization">Karl-Danzer-Foundation</div>
     </div>
 </div>
