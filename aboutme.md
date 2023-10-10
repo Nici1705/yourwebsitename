@@ -99,154 +99,30 @@ layout: page
 </div>
 
 <style>
+    /* Styles for EDUCATION Entries */
     .education-entry {
-        margin-bottom: 20px;
+        margin-bottom: 40px; /* spacing between entries */
     }
     .details-flex {
         display: flex;
-        align-items: center; 
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 10px; /* tight spacing within the entry */
     }
-    .details-flex .date {
-        width: 70px;
-        text-align: left;
-        margin-right: 15px;
-    }
-    .details-flex .program-details {
-        flex-grow: 2;
-        margin-right: 20px;
-    }
-    .details-flex .program-title {
-        margin-bottom: 5px;
-    }
-    .details-flex ul {
-        margin: 0;
-        padding-left: 20px;
-    }
-    .details-flex .location {
-        text-align: left;
+    .date, .location {
+        flex: 0 0 auto;
         white-space: nowrap;
     }
-</style>
-
-<h2 style="text-decoration: underline;">AWARDS</h2>
-
-<!-- AWARDS Entries -->
-<div class="entry">
-    <span class="date">2023</span>
-    <div class="description">
-        <strong>Dissertation Prize</strong>
-        <ul>
-            <li class="issuer">History Faculty of the University of Oxford</li>
-        </ul>
-    </div>
-</div>
-<div class="entry">
-    <span class="date">2021</span>
-    <div class="description">
-        <strong>Third best degree BSc International Economics</strong>
-        <ul>
-            <li class="issuer">RWT GmbH</li>
-        </ul>
-    </div>
-</div>
-<div class="entry">
-    <span class="date">2018</span>
-    <div class="description">
-        <strong>Scholarship</strong>
-        <ul>
-            <li class="issuer">Konrad-Adenauer-Foundation</li>
-        </ul>
-    </div>
-</div>
-<div class="entry">
-    <span class="date">2017</span>
-    <div class="description">
-        <strong>History state winner Baden-Württemberg</strong>
-        <ul>
-            <li class="issuer">Körber-Foundation</li>
-        </ul>
-    </div>
-</div>
-<div class="entry">
-    <span class="date">2017</span>
-    <div class="description">
-        <strong>History Prize of Reutlingen</strong>
-        <ul>
-            <li class="issuer">Historical Society of Reutlingen</li>
-        </ul>
-    </div>
-</div>
-<div class="entry">
-    <span class="date">2018</span>
-    <div class="description">
-        <strong>Special Prize in Economics</strong>
-        <ul>
-            <li class="issuer">Kreissparkasse Reutlingen</li>
-        </ul>
-    </div>
-</div>
-<div class="entry">
-    <span class="date">2014</span>
-    <div class="description">
-        <strong>Outstanding A-Level performance</strong>
-        <ul>
-            <li class="issuer">Johannes-Kepler-Gymnasium</li>
-        </ul>
-    </div>
-</div>
-<div class="entry">
-    <span class="date">2020</span>
-    <div class="description">
-        <strong>Online Scholarship</strong>
-        <ul>
-            <li class="issuer">e-fellows.net</li>
-        </ul>
-    </div>
-</div>
-<div class="entry">
-    <span class="date">2016</span>
-    <div class="description">
-        <strong>Outstanding performance in an artistic field</strong>
-        <ul>
-            <li class="issuer">Karl-Danzer-Foundation</li>
-        </ul>
-    </div>
-</div>
-<div class="entry">
-    <span class="date">2015</span>
-    <div class="description">
-        <strong>Outstanding performance in a foreign language</strong>
-        <ul>
-            <li class="issuer">Karl-Danzer-Foundation</li>
-        </ul>
-    </div>
-</div>
-
-<style>
-    .entry {
-        display: flex;
-        align-items: flex-start;
-        margin-bottom: 20px;
+    .program-details {
+        flex: 1 1 auto;
+        margin: 0 20px; /* Adjusted spacing around program details */
     }
-    .date {
-        width: 70px;
-        text-align: left;
-        margin-right: 15px;
-        align-self: center;
+    .program-title {
+        margin-top: 0; /* Override default margin */
+        margin-bottom: 5px;
     }
-    .description {
-        flex-grow: 3;
-        margin-right: 20px;
-    }
-    .description ul {
+    .program-details ul {
         margin: 0;
         padding-left: 20px;
-    }
-    .location {
-        flex: 1;
-        text-align: right;
-    }
-    .issuer {
-        font-style: italic;
     }
 </style>
