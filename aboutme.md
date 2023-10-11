@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<h2 style="text-decoration: underline; font-size: 32px; margin-top: -60px; text-align: center;">Curriculum Vitae</h2>
+<h2 id="main-title" style="text-decoration: underline; font-size: 32px; margin-top: -60px; text-align: center;">Curriculum Vitae</h2>
 <div style="text-align: center; margin-top: 10px;">
     <a href="/assets/img/cv_griesshaber.pdf" target="_blank">Download CV as PDF</a>
 </div>

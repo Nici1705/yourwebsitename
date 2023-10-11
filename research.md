@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<h2 style="text-decoration: underline; font-size: 32px; margin-top: -60px; text-align: center;">Research</h2>
+<h2 id="main-title" style="text-decoration: underline; font-size: 32px; margin-top: -60px; text-align: center;">Research</h2>
 
 <div class="research-entry">
     <h3 style="text-decoration: underline;">Economic History + Machine Learning</h3>
