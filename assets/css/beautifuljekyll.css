@@ -1120,6 +1120,6 @@ pre {
 /* --- Media queries --- */
 @media only screen and (max-width: 480px) {
   h2#main-title {
-      margin-top: 5px !important;
+      margin-top: -10px !important;
   }
 }
