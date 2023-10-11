@@ -1120,6 +1120,6 @@ pre {
 /* --- Media queries --- */
 @media (max-width: 768px) {
   h2#main-title {
-      margin-top: 20px !important; /* Adjust this value to position the title properly on mobile */
+      margin-top: 10px !important; /* Adjust this value to position the title properly on mobile */
   }
 }
