@@ -1116,3 +1116,10 @@ pre {
     display: inline-block;
   }
 }
+
+/* --- Media queries --- */
+@media (max-width: 768px) {
+  .content-title-or-class-name {
+      padding-top: 500px; /* Adjust this value based on your needs */
+  }
+}
