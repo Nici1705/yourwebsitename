@@ -1119,8 +1119,7 @@ pre {
 
 /* --- Media queries --- */
 @media (max-width: 768px) {
-  [role="heading"] {
-      padding-top: 500px; /* Adjust as needed */
+  #main-title {
+      margin-top: 20px; /* Adjust this value to position the title properly on mobile */
   }
 }
-
