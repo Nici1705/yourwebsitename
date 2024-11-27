@@ -2,25 +2,21 @@
 layout: page
 ---
 
-<h2 id="main-title" style="text-decoration: underline; font-size: 32px; margin-top: -60px; text-align: center;">Research</h2>
+<h1 id="main-title" style="text-decoration: underline; font-size: 32px; margin-top: -60px; text-align: center;">Research</h1>
 
 <div class="research-entry">
-    <h3 style="text-decoration: underline;">Economic History + Machine Learning</h3>
-    <p>I am applying large language models to investigate historical text documents. This allows me to detect new patterns that were previously not found with traditional methods in economic history. I am currently working to publish my master's dissertation with Professor <a href="https://www.sheilaghogilvie.com">Sheilagh Ogilvie</a>.</p>
-    <div style="text-align: center; margin-top: 10px;">
-</div>
+    <p>My research is at the intersection of machine learning and economic history.</p>
 
-<div class="research-entry">
-    <h3 style="text-decoration: underline;">Machine Learning</h3>
-    <p>I plan to delve deeper into training feature point descriptors with deep learning, which I investigated in my bachelor's thesis in the BSc Cognitive Science. I am currently working to publish my bachelor's thesis with Holger Heidrich, a PhD candidate at the chair of Visual Computing at the University of Tübingen. </p>
-</div>
+    <!-- Papers Under Review Section -->
+    <h3 style="font-weight: bold; margin-bottom: 5px; text-decoration: underline;">Papers under Review</h3>
+    <p style="margin-top: 2px;">Transplanting Craft Guilds to Colonial Latin America: A Large Language Model Analysis <br>
+    <i>(with <a href="https://www.sheilaghogilvie.com">Sheilagh Ogilvie</a>; currently under review at The Journal of Economic History)</i></p>
 
-<style>
-    .research-entry {
-        margin-bottom: 20px;
-    }
-    .research-entry p {
-        margin: 4px 0;
-        text-align: justify;
-    }
-</style>
+    <!-- Papers in Progress Section -->
+    <h3 style="font-weight: bold; margin-bottom: 5px; text-decoration: underline;">Papers in Progress</h3>
+    <p style="margin-top: 2px;">A New Historical Dataset for Machine Translation between Early German and English: Cross-Lingual Transfer, Many-Shot In-Context Learning, and Fine-Tuning <br>
+    <i>(with <a href="https://www.sheilaghogilvie.com">Sheilagh Ogilvie</a>, Jiayi Wang, Yao Lu, and Pontus Stenetorp;<br>
+    in preparation for submission in ACL)</i></p>
+    <p style="margin-top: 2px;">Multimodal Large Language Models for Layout Detection and Post-OCR Correction: German Business Directories from the 18th and 19th Centuries <br>
+    <i>(with Gavin Greif)</i></p>
+</div>
