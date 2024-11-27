@@ -4,19 +4,57 @@ layout: page
 
 <h1 id="main-title" style="text-decoration: underline; font-size: 32px; margin-top: -60px; text-align: center;">Research</h1>
 
-<div class="research-entry" style="text-align: center; margin-top: 10px;">
+<div class="research-entry">
     <p>My research is at the intersection of machine learning and economic history.</p>
 
     <!-- Papers Under Review Section -->
-    <h3 style="font-weight: bold; margin-bottom: 5px; text-decoration: underline;">Papers under Review</h3>
-    <p style="margin-top: 2px;">Transplanting Craft Guilds to Colonial Latin America: A Large Language Model Analysis <br>
+    <h3>Papers under Review</h3>
+    <p>Transplanting Craft Guilds to Colonial Latin America: A Large Language Model Analysis <br>
     <i>(with <a href="https://www.sheilaghogilvie.com">Sheilagh Ogilvie</a>; currently under review at The Journal of Economic History)</i></p>
 
     <!-- Papers in Progress Section -->
-    <h3 style="font-weight: bold; margin-bottom: 5px; text-decoration: underline;">Papers in Progress</h3>
-    <p style="margin-top: 2px;">A New Historical Dataset for Machine Translation between Early German and English: Cross-Lingual Transfer, Many-Shot In-Context Learning, and Fine-Tuning <br>
+    <h3>Papers in Progress</h3>
+    <p>A New Historical Dataset for Machine Translation between Early German and English: Cross-Lingual Transfer, Many-Shot In-Context Learning, and Fine-Tuning <br>
     <i>(with <a href="https://www.sheilaghogilvie.com">Sheilagh Ogilvie</a>, Jiayi Wang, Yao Lu, and Pontus Stenetorp;<br>
     in preparation for submission in ACL)</i></p>
-    <p style="margin-top: 2px;">Multimodal Large Language Models for Layout Detection and Post-OCR Correction: German Business Directories from the 18th and 19th Centuries <br>
+    <p>Multimodal Large Language Models for Layout Detection and Post-OCR Correction: German Business Directories from the 18th and 19th Centuries <br>
     <i>(with Gavin Greif)</i></p>
 </div>
+
+/* Apply styles for all screens */
+.research-entry {
+    text-align: justify; /* Justify the text for better readability */
+    margin-top: 10px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Add line spacing for readability */
+}
+
+.research-entry h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-size: 1.2em;
+    text-align: center; /* Keep headings centered for emphasis */
+}
+
+.research-entry p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 600px) {
+    .research-entry {
+        padding: 15px;
+    }
+
+    .research-entry h3 {
+        font-size: 1.1em;
+    }
+
+    .research-entry p {
+        font-size: 0.9em;
+        margin-top: 5px;
+    }
+}
