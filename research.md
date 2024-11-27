@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<h1 id="main-title" style="text-decoration: underline; font-size: 32px; margin-top: -60px; text-align: center;">Research</h1>
+<h2 id="main-title" style="text-decoration: underline; font-size: 32px; margin-top: -60px; text-align: center;">Research</h2>
 
 <div class="research-entry">
     <p>My research is at the intersection of machine learning and economic history.</p>
@@ -21,13 +21,26 @@ layout: page
     <i>(with Gavin Greif)</i></p>
 </div>
 
-/* Apply styles for all screens */
+<style>
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: justify; /* Justify all text */
+    margin: 0;
+    padding: 0;
+}
+
+#main-title {
+    text-decoration: underline;
+    font-size: 32px;
+    margin-top: -60px;
+    text-align: justify; /* Justify the main title */
+}
+
 .research-entry {
-    text-align: justify; /* Justify the text for better readability */
     margin-top: 10px;
     padding: 10px;
-    font-family: Arial, sans-serif;
-    line-height: 1.6; /* Add line spacing for readability */
 }
 
 .research-entry h3 {
@@ -35,7 +48,7 @@ layout: page
     margin-bottom: 10px;
     text-decoration: underline;
     font-size: 1.2em;
-    text-align: center; /* Keep headings centered for emphasis */
+    text-align: justify; /* Justify the headings */
 }
 
 .research-entry p {
@@ -43,10 +56,14 @@ layout: page
     font-size: 1em;
 }
 
-/* Adjust styles for smaller screens */
+/* Responsive Styles */
 @media (max-width: 600px) {
     .research-entry {
         padding: 15px;
+    }
+
+    #main-title {
+        font-size: 24px;
     }
 
     .research-entry h3 {
@@ -58,3 +75,4 @@ layout: page
         margin-top: 5px;
     }
 }
+</style>
