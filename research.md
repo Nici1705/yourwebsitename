@@ -15,8 +15,7 @@ layout: page
     <!-- Papers in Progress Section -->
     <h3>Papers in Progress</h3>
     <p>A New Historical Dataset for Machine Translation between Early German and English: Cross-Lingual Transfer, Many-Shot In-Context Learning, and Fine-Tuning <br>
-    <i>(with <a href="https://www.sheilaghogilvie.com">Sheilagh Ogilvie</a>, Jiayi Wang, Yao Lu, and Pontus Stenetorp;<br>
-    in preparation for submission in ACL)</i></p>
+    <i>(with <a href="https://www.sheilaghogilvie.com">Sheilagh Ogilvie</a>, Jiayi Wang, Yao Lu, and Pontus Stenetorp; in preparation for submission in ACL)</i></p>
     <p>Multimodal Large Language Models for Layout Detection and Post-OCR Correction: German Business Directories from the 18th and 19th Centuries <br>
     <i>(with Gavin Greif)</i></p>
 </div>
