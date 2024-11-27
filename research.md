@@ -4,7 +4,7 @@ layout: page
 
 <h1 id="main-title" style="text-decoration: underline; font-size: 32px; margin-top: -60px; text-align: center;">Research</h1>
 
-<div class="research-entry">
+<div class="research-entry" style="text-align: center; margin-top: 10px;">
     <p>My research is at the intersection of machine learning and economic history.</p>
 
     <!-- Papers Under Review Section -->
